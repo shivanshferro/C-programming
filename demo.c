@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(){
-    printf("Hello World ji");
+    printf("nn\n\nnn\n");
+    printf("nn/n/nnn/n");
     return 0;
 }
