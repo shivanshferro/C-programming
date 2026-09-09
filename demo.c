@@ -1,9 +1,9 @@
 #include<stdio.h>
-int main()
-{
-    printf("shivansh mishra\n");
+int main(){
     int x;
-    x = 5;
+    x = 10;
+    printf("%d",x);
+    x = 20;
     printf("%d",x);
     return 0;
 }
