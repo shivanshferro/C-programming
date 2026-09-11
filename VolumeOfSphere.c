@@ -1,9 +1,7 @@
 #include<stdio.h>
-int main(){
-    int radius;
-    radius = 7;
-    float volume = (4.0/3.0) * 3.14 * radius * radius * radius;
-    printf("volume of sphere : %f",volume);
-
+int main (){
+    int radius = 5;
+    float area = 3.14 * radius * radius;
+    printf("The area of the circle : %f",area);
     return 0;
 }
