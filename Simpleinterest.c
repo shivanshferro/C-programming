@@ -1,10 +1,14 @@
 #include<stdio.h>
-int main (){
-    float  p, r, t;
-    p = 1000;
-    r = 5;
-    t = 2;
-    float simple_interest = (p * r *t)/100;
-    printf("%f",simple_interest);
+int main(){
+    int principal, rate ,time;
+    printf("enter the principal : ");
+    scanf("%d",&principal);
+    printf("enter the rate : ");
+    scanf("%d",&rate);
+    printf("enter the time : ");
+    scanf("%d",&time);
+    float simpleinterest = (principal * rate * time)/100;
+    printf("%f",simpleinterest);
+
     return 0;
 }
