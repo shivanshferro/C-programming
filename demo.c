@@ -1,11 +1,8 @@
 #include<stdio.h>
 int main (){
-    float maths = 20;
-    float evs = 40;
-    float science = 30;
-    float hindi = 30;
-    float total = maths + evs + science + hindi;
-    float percentage = (total/160)*100;
-    printf(" %f",percentage);
+    int p,q;
+    printf("enter the number of p and q");
+    scanf(" %d %d",&p,&q);
+    printf("p = %d, q = %d",p,q);
     return 0;
 }
