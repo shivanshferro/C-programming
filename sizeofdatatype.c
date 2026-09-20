@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main (){
-    int a;
-    a = 30 * 1000 + 2768;
+    short a;
+    a = 4 + 2 % - 8;
     printf("%d", a);
     return 0;
 }
