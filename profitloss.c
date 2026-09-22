@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main (){
     int costprice;
-    printf("Enter The Amount : ");
+    printf("Enter The Amounts : ");
     scanf("%d",&costprice);
     int sellingprice;
     printf("Enter The Amount : ");
