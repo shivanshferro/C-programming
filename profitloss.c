@@ -9,11 +9,11 @@ int main (){
     if(costprice<sellingprice){
         printf("GOT PROFIT");
     }
-    if(costprice==sellingprice){
-        printf("Nothing");
-    }
-    else{
+    if(costprice>sellingprice){
         printf("GOT LOSS");
+    }
+    if(costprice==sellingprice){
+        printf(" nothing");
     }
     return 0;
 }
