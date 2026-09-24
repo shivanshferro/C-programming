@@ -23,5 +23,8 @@ int main(){
 
         }
     }
+    else{
+        printf("any values of three are similar to each other");
+    }
     return 0;
 }
