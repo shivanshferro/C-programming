@@ -6,17 +6,17 @@ int main()
     scanf("%d", &x);
     printf("enter the number : ");
     scanf("%d", &y);
-    if (y == 0 && x != 0)
+    if (y == 0 && x == 0)
     {
-        printf("lies on x axis");
+        printf("lies on origin ");
     }
-    if (y != 0 && x == 0)
+    else if (y != 0 && x == 0)
     {
         printf("lies on y axis");
     }
-    if (x == 0 && y == 0)
+    else if (x != 0 && y == 0)
     {
-        printf("lies on origin");
+        printf("lies on x axis ");
     }
     else
          printf("Lies in the plane (not on any axis)");
